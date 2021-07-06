@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+}
+
+h1{
+    font-family: 'Great Vibes', cursive,sans-serif;
+    font-size: 80px;
+
+}
+h2{
+    font-size: 60px;
+    font-family: 'JustAnotherHand',cursive,sans-serif ;
+    
+}
+h3{
+    font-size: 30px;
+}
+/*nav section*/
+#logo{
+    font-family: yomogi,sans-serif;
+    color: wheat;
+    margin-left: 5%;
+    font-size: 30px;
+}
+.logo-color{
+    color: white;
+}
+.main-head{
+    position: fixed;
+    background-color:rgb(111, 78, 55) ;
+    width: 100%;
+}
+.main-head ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+ 
+}   
+.main-head li{
+    float: left;
+} 
+.main-head a{
+    display:block;
+  color: white;
+  text-align: center;
+  margin-left: 300px;
+  margin-top: -52px;
+  margin-bottom: 10px;
+  padding: 0px 40px;
+  text-decoration: none;
+ 
+}
+.text-highlight{
+    color: rgb(118, 55, 2);
+    font-family: yomogi,sans-serif;
+} 
+.flex-container{
+    display: flex;
+    margin-bottom: 200px;
+}
+.width{
+    width: 50%;
+    padding-left: 10%;
+}
+.width img{
+    width: 100%;
+    margin-top: 0px;
+}
+.intro-text{
+    margin-top: 10%;
+}
+.link-button{
+    text-decoration: none;
+    background:linear-gradient(to right,rgb(228, 120, 32), rgb(118,55,2));
+    padding: 30px 80px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    display: inline-block;
+    margin-top: 50px;
+    
+}
+#intro{
+    background-image: url('./img/intro-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#about{
+    background-image: url('./img/about.jfif');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    
+}
+.about-text{
+    padding-top: 15%;
+}
+.width p{
+    font-size: 20px;
+}
+.menu-text{
+    text-align: center;
+    padding-bottom: 5%;
+}
+.card{
+    display: flex;
+    
+}
+.box{
+    
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+    padding-left: 0px;
+    box-shadow: 10px 10px 40px grey;
+    padding: 10px 10px;
+    border-radius: 10px;
+    
+}
+.box img{
+    padding-top: 10px;
+    border-radius: 20px;
+    
+    
+}
+ul {
+    list-style: none;
+    
+    padding: 0 ;
+  }
+li{
+    display: inline-block;
+    padding: 2px 100px;
+}
+ 
+#social-media{
+    display: flex;
+    flex-direction: row;
+}
+.social-media-box{
+    width: 60%;
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-bottom: 30px;
+    padding-left: 8%;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+
+}
+footer {
+    text-align: center;
+    background-color: rgb(56, 56, 85);
+    padding: 30px 60px;
+    margin-bottom: -10px;
+}
+footer p{
+    text-align: center;
+    font-weight: 700;
+    font-size: large;
+    padding-left:82px;
+    color: white;
+    
+
+}
